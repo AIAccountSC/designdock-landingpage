@@ -1,0 +1,1097 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>DesignDock — Deine Design-Flatrate ab 2.000 € / Monat</title>
+  <meta name="description" content="DesignDock ist dein festes Design-Team zum Festpreis. Laufend Ads, Landingpage-Visuals, Präsentationen und Brand-Assets — ohne Freelancer-Chaos." />
+  <link rel="canonical" href="https://aiaccountsc.github.io/designdock-landingpage/" />
+  <meta name="author" content="DesignDock" />
+  <meta name="theme-color" content="#0b0e0c" />
+  <meta name="color-scheme" content="dark" />
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="de_DE" />
+  <meta property="og:site_name" content="DesignDock" />
+  <meta property="og:title" content="DesignDock — Deine Design-Flatrate ab 2.000 € / Monat" />
+  <meta property="og:description" content="Dein festes Design-Team zum Festpreis. Laufend Ads, Landingpage-Visuals, Präsentationen und Brand-Assets — ohne Freelancer-Chaos." />
+  <meta property="og:url" content="https://aiaccountsc.github.io/designdock-landingpage/" />
+  <meta property="og:image" content="https://aiaccountsc.github.io/designdock-landingpage/assets/og.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="DesignDock — Deine Design-Flatrate" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="DesignDock — Deine Design-Flatrate ab 2.000 € / Monat" />
+  <meta name="twitter:description" content="Dein festes Design-Team zum Festpreis — ohne Freelancer-Chaos." />
+  <meta name="twitter:image" content="https://aiaccountsc.github.io/designdock-landingpage/assets/og.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --bg: #0b0e0c;
+      --bg-2: #10140f;
+      --panel: rgba(255,255,255,0.035);
+      --panel-2: rgba(255,255,255,0.06);
+      --line: rgba(255,255,255,0.10);
+      --line-2: rgba(255,255,255,0.16);
+      --text: #eef1ea;
+      --text-2: #b7bdb2;
+      --muted: #8b938a;
+      --lime: #c6f24e;
+      --lime-2: #d6f873;
+      --lime-deep: #9ed12f;
+      --light: #f1f2ec;
+      --light-2: #e6e8df;
+      --ink: #12160f;
+      --ink-2: #4a5247;
+      --ink-muted: #79806f;
+      --rose: #e8806a;
+    }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; scroll-padding-top: 92px; overflow-x: clip; }
+    body {
+      font-family: "DM Sans", -apple-system, BlinkMacSystemFont, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      font-size: 16.5px;
+      line-height: 1.55;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      letter-spacing: -0.006em;
+      overflow-x: hidden;
+    }
+    a { color: inherit; text-decoration: none; }
+    img { max-width: 100%; display: block; }
+    ::selection { background: var(--lime); color: var(--ink); }
+
+    .container { width: 100%; max-width: 1240px; margin: 0 auto; padding: 0 32px; }
+    @media (max-width: 620px) { .container { padding: 0 20px; } }
+
+    h1, h2, h3, h4 { font-family: "Space Grotesk", sans-serif; font-weight: 600; margin: 0; letter-spacing: -0.02em; }
+
+    .display {
+      font-size: clamp(40px, 5.4vw, 78px);
+      line-height: 0.98;
+      letter-spacing: -0.035em;
+      font-weight: 700;
+      text-wrap: balance;
+    }
+    .h-sec {
+      font-size: clamp(30px, 3.6vw, 50px);
+      line-height: 1.04;
+      letter-spacing: -0.03em;
+      font-weight: 600;
+      text-wrap: balance;
+    }
+    .lead { font-size: clamp(16px, 1.2vw, 19px); line-height: 1.6; color: var(--text-2); max-width: 60ch; text-wrap: pretty; }
+    .accent { color: var(--lime); }
+
+    /* eyebrow / mono label */
+    .eyebrow {
+      display: inline-flex; align-items: center; gap: 9px;
+      font-family: "Space Grotesk", sans-serif;
+      font-size: 12px; font-weight: 600; letter-spacing: 0.16em; text-transform: uppercase;
+      color: var(--lime);
+    }
+    .eyebrow::before { content: ""; width: 7px; height: 7px; border-radius: 50%; background: var(--lime); box-shadow: 0 0 0 4px rgba(198,242,78,0.18); }
+    .on-light .eyebrow { color: var(--lime-deep); }
+    .on-light .eyebrow::before { background: var(--lime-deep); box-shadow: 0 0 0 4px rgba(158,209,47,0.18); }
+
+    /* buttons */
+    .btn {
+      display: inline-flex; align-items: center; gap: 9px;
+      background: var(--lime); color: var(--ink);
+      border: 1px solid var(--lime);
+      padding: 13px 22px; border-radius: 12px;
+      font-family: "Space Grotesk", sans-serif; font-size: 15px; font-weight: 600;
+      letter-spacing: -0.01em; white-space: nowrap; cursor: pointer;
+      transition: transform .22s ease, background .22s ease, box-shadow .22s ease;
+      box-shadow: 0 10px 30px -12px rgba(198,242,78,0.5);
+    }
+    .btn:hover { background: var(--lime-2); transform: translateY(-2px); box-shadow: 0 16px 38px -12px rgba(198,242,78,0.6); }
+    .btn svg { width: 16px; height: 16px; transition: transform .22s ease; }
+    .btn:hover svg { transform: translateX(3px); }
+    .btn-lg { padding: 16px 26px; font-size: 16px; border-radius: 14px; }
+    .btn-ghost {
+      background: transparent; color: var(--text); border: 1px solid var(--line-2);
+      box-shadow: none;
+    }
+    .btn-ghost:hover { background: var(--panel-2); border-color: var(--lime); color: var(--text); }
+    .on-light .btn-ghost { color: var(--ink); border-color: rgba(18,22,15,0.2); }
+    .on-light .btn-ghost:hover { background: rgba(18,22,15,0.05); border-color: var(--ink); }
+
+    .cta-meta { font-size: 13.5px; color: var(--muted); display: inline-flex; align-items: center; gap: 9px; }
+    .cta-meta::before { content: ""; width: 6px; height: 6px; border-radius: 50%; background: var(--lime); box-shadow: 0 0 0 4px rgba(198,242,78,0.18); }
+
+    /* ============ HEADER ============ */
+    .header {
+      position: fixed; top: 0; left: 0; right: 0; z-index: 60;
+      background: color-mix(in oklab, var(--bg) 72%, transparent);
+      backdrop-filter: blur(16px) saturate(140%);
+      -webkit-backdrop-filter: blur(16px) saturate(140%);
+      border-bottom: 1px solid transparent;
+      transition: border-color .25s ease, background .25s ease;
+    }
+    .header.scrolled { border-bottom-color: var(--line); background: color-mix(in oklab, var(--bg) 88%, transparent); }
+    .header-inner { max-width: 1240px; margin: 0 auto; padding: 16px 32px; display: flex; align-items: center; justify-content: space-between; gap: 24px; }
+    @media (max-width: 620px) { .header-inner { padding: 14px 20px; } }
+    .brand { display: flex; align-items: center; gap: 11px; }
+    .brand-mark {
+      width: 34px; height: 34px; border-radius: 10px;
+      background: var(--lime); color: var(--ink);
+      display: grid; place-items: center; flex-shrink: 0;
+      box-shadow: 0 6px 18px -8px rgba(198,242,78,0.6);
+      position: relative;
+    }
+    .brand-mark svg { width: 19px; height: 19px; }
+    .brand-name { font-family: "Space Grotesk", sans-serif; font-size: 19px; font-weight: 700; letter-spacing: -0.03em; }
+    .brand-name span { color: var(--lime); }
+    .nav { display: flex; gap: 4px; }
+    .nav a { font-size: 14.5px; color: var(--text-2); padding: 8px 14px; border-radius: 9px; transition: background .2s, color .2s; }
+    .nav a:hover { color: var(--text); background: var(--panel-2); }
+    @media (max-width: 920px) { .nav { display: none; } }
+    .header .btn { padding: 11px 18px; font-size: 14px; }
+    @media (max-width: 480px) { .header .btn .full { display: none; } }
+
+    /* ============ section base ============ */
+    .section { padding: clamp(76px, 9vw, 130px) 0; position: relative; }
+    .section.light { background: var(--light); color: var(--ink); }
+    .section.light .lead { color: var(--ink-2); }
+    .section.light .h-sec { color: var(--ink); }
+    .section-head { max-width: 780px; margin: 0 0 56px; display: flex; flex-direction: column; gap: 18px; align-items: flex-start; }
+    .section-head.center { margin-left: auto; margin-right: auto; align-items: center; text-align: center; }
+    .section-head.center .lead { text-align: center; }
+
+    /* ============ HERO ============ */
+    .hero { padding: 150px 0 100px; position: relative; overflow: hidden; }
+    .hero::before {
+      content: ""; position: absolute; inset: 0; pointer-events: none;
+      background:
+        radial-gradient(46% 40% at 78% 8%, rgba(198,242,78,0.14), transparent 70%),
+        radial-gradient(40% 44% at 8% 70%, rgba(198,242,78,0.07), transparent 70%);
+    }
+    .hero::after {
+      content: ""; position: absolute; inset: 0; pointer-events: none; opacity: 0.5;
+      background-image:
+        linear-gradient(rgba(255,255,255,0.025) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255,255,255,0.025) 1px, transparent 1px);
+      background-size: 60px 60px;
+      mask-image: radial-gradient(80% 70% at 50% 20%, #000, transparent 78%);
+      transform: translateY(var(--py, 0));
+    }
+    .hero-inner { position: relative; z-index: 1; display: grid; grid-template-columns: 1.05fr 0.95fr; gap: 60px; align-items: center; }
+    @media (max-width: 980px) { .hero-inner { grid-template-columns: 1fr; gap: 48px; } }
+
+    .badge {
+      display: inline-flex; align-items: center; gap: 10px;
+      padding: 8px 16px 8px 10px; border-radius: 999px;
+      background: var(--panel-2); border: 1px solid var(--line);
+      font-size: 13px; font-weight: 500; color: var(--text);
+    }
+    .badge b { color: var(--lime); font-weight: 600; }
+    .badge .tag { font-family: "Space Grotesk", sans-serif; font-size: 10.5px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; background: var(--lime); color: var(--ink); padding: 4px 8px; border-radius: 999px; white-space: nowrap; }
+    .badge { white-space: nowrap; }
+    .hero h1 { margin: 26px 0 24px; }
+    .hero-sub { max-width: 54ch; font-size: 18px; }
+    .hero-cta { margin-top: 36px; display: flex; gap: 14px; align-items: center; flex-wrap: wrap; }
+    .hero-ideal { margin-top: 30px; display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
+    .hero-ideal .lbl { font-family: "Space Grotesk", sans-serif; font-size: 12px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); margin-right: 4px; }
+    .chip { font-size: 13px; font-weight: 500; color: var(--text-2); padding: 8px 14px; border: 1px solid var(--line); border-radius: 999px; transition: border-color .2s, color .2s; }
+    .chip:hover { border-color: var(--lime); color: var(--text); }
+
+    /* hero board mock */
+    .board-wrap { position: relative; }
+    .board-wrap::before { content: ""; position: absolute; inset: -10% -6%; background: radial-gradient(50% 50% at 60% 40%, rgba(198,242,78,0.12), transparent 70%); filter: blur(10px); pointer-events: none; }
+    .board {
+      position: relative;
+      background: linear-gradient(180deg, rgba(255,255,255,0.06), rgba(255,255,255,0.02));
+      border: 1px solid var(--line-2); border-radius: 22px; padding: 18px;
+      box-shadow: 0 40px 80px -36px rgba(0,0,0,0.7), 0 1px 0 rgba(255,255,255,0.08) inset;
+      backdrop-filter: blur(10px);
+    }
+    .board-top { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-bottom: 16px; padding: 2px 4px; }
+    .board-top .t-lbl { font-family: "Space Grotesk", sans-serif; font-size: 11px; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); }
+    .board-top .t-big { font-family: "Space Grotesk", sans-serif; font-size: 19px; font-weight: 700; letter-spacing: -0.02em; }
+    .board-top .t-pill { font-family: "Space Grotesk", sans-serif; font-size: 11.5px; font-weight: 700; background: var(--lime); color: var(--ink); padding: 6px 12px; border-radius: 999px; }
+    .board-cards { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; }
+    .b-card { background: var(--panel); border: 1px solid var(--line); border-radius: 14px; padding: 11px; }
+    .b-thumb { height: 60px; border-radius: 9px; margin-bottom: 11px; position: relative; overflow: hidden; }
+    .b-thumb.g1 { background: linear-gradient(135deg, var(--lime), #7fd0c4); }
+    .b-thumb.g2 { background: linear-gradient(135deg, #b6a8f5, #f5c7e6); }
+    .b-thumb.g3 { background: linear-gradient(135deg, #f5d27f, #e8806a); }
+    .b-thumb i { position: absolute; display: block; background: rgba(11,14,12,0.78); border-radius: 3px; }
+    .b-thumb i:nth-child(1) { top: 10px; left: 10px; width: 26px; height: 7px; }
+    .b-thumb i:nth-child(2) { bottom: 14px; left: 10px; right: 10px; height: 5px; background: rgba(255,255,255,0.7); }
+    .b-thumb i:nth-child(3) { bottom: 7px; left: 10px; width: 60%; height: 5px; background: rgba(255,255,255,0.5); }
+    .b-card b { font-size: 13px; font-weight: 600; color: var(--text); display: block; letter-spacing: -0.01em; }
+    .b-card span { font-size: 11px; color: var(--muted); }
+    .b-bar { margin-top: 10px; height: 5px; border-radius: 999px; background: rgba(255,255,255,0.1); overflow: hidden; }
+    .b-bar i { display: block; height: 100%; background: var(--lime); border-radius: 999px; }
+    .board-feed { margin-top: 10px; background: var(--panel); border: 1px solid var(--line); border-radius: 14px; padding: 14px; }
+    .board-feed .f-head { display: flex; align-items: center; justify-content: space-between; gap: 10px; margin-bottom: 12px; }
+    .board-feed .f-head b { display: inline-flex; align-items: center; gap: 8px; font-size: 13px; font-weight: 600; color: var(--text); }
+    .board-feed .f-head b svg { width: 15px; height: 15px; color: var(--lime); }
+    .board-feed .f-head span { font-size: 11px; color: var(--muted); }
+    .board-feed .f-line { height: 8px; border-radius: 999px; background: rgba(255,255,255,0.08); margin-bottom: 8px; }
+    .board-feed .f-line.w1 { width: 100%; }
+    .board-feed .f-line.w2 { width: 82%; }
+    .board-feed .f-line.w3 { width: 60%; background: rgba(198,242,78,0.4); margin-bottom: 0; }
+
+    .float-tag {
+      position: absolute; z-index: 3;
+      background: var(--bg-2); border: 1px solid var(--line-2); border-radius: 14px;
+      padding: 11px 15px; display: flex; align-items: center; gap: 11px;
+      box-shadow: 0 24px 48px -20px rgba(0,0,0,0.8);
+    }
+    .float-tag .ft-ic { width: 34px; height: 34px; border-radius: 9px; background: var(--lime); color: var(--ink); display: grid; place-items: center; flex-shrink: 0; }
+    .float-tag .ft-ic svg { width: 17px; height: 17px; }
+    .float-tag b { font-family: "Space Grotesk", sans-serif; font-size: 14px; font-weight: 700; letter-spacing: -0.01em; display: block; }
+    .float-tag span { font-size: 11.5px; color: var(--muted); }
+    .float-tag.f1 { top: -22px; right: 20px; animation: floaty 6s ease-in-out infinite; }
+    .float-tag.f2 { bottom: -22px; left: -16px; animation: floaty 7s ease-in-out infinite -2s; }
+    @keyframes floaty { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-7px); } }
+    @media (max-width: 520px) { .float-tag { display: none; } }
+
+    /* ============ PROBLEM ============ */
+    .prob-grid { display: grid; grid-template-columns: repeat(2, 1fr) ; gap: 14px; }
+    @media (max-width: 760px) { .prob-grid { grid-template-columns: 1fr; } }
+    .prob-card { display: flex; gap: 14px; align-items: flex-start; background: var(--panel); border: 1px solid var(--line); border-radius: 16px; padding: 22px; transition: border-color .25s, transform .25s, background .25s; }
+    .prob-card:hover { border-color: var(--line-2); transform: translateY(-3px); background: var(--panel-2); }
+    .prob-card .x { width: 30px; height: 30px; border-radius: 8px; background: rgba(232,128,106,0.16); color: var(--rose); display: grid; place-items: center; flex-shrink: 0; }
+    .prob-card .x svg { width: 16px; height: 16px; }
+    .prob-card p { margin: 0; font-size: 15px; line-height: 1.5; color: var(--text-2); }
+    .prob-feature {
+      grid-column: span 2;
+      display: grid; grid-template-columns: 1fr auto; gap: 28px; align-items: center;
+      background: linear-gradient(135deg, rgba(198,242,78,0.12), rgba(198,242,78,0.03));
+      border: 1px solid rgba(198,242,78,0.3); border-radius: 18px; padding: 30px 32px;
+    }
+    @media (max-width: 760px) { .prob-feature { grid-column: span 1; grid-template-columns: 1fr; gap: 20px; align-items: start; } }
+    .prob-feature h3 { font-size: clamp(20px, 2vw, 26px); line-height: 1.2; max-width: 26ch; }
+    .prob-feature p { margin: 12px 0 0; color: var(--text-2); font-size: 15px; max-width: 50ch; }
+
+    /* ============ BENEFITS / ZIELBILD ============ */
+    .bene-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+    @media (max-width: 900px) { .bene-grid { grid-template-columns: 1fr 1fr; } }
+    @media (max-width: 560px) { .bene-grid { grid-template-columns: 1fr; } }
+    .bene { background: #fff; border: 1px solid var(--light-2); border-radius: 18px; padding: 26px; transition: transform .25s, box-shadow .25s; }
+    .bene:hover { transform: translateY(-4px); box-shadow: 0 22px 44px -24px rgba(18,22,15,0.25); }
+    .bene-ic { width: 48px; height: 48px; border-radius: 13px; background: var(--ink); color: var(--lime); display: grid; place-items: center; margin-bottom: 20px; }
+    .bene-ic svg { width: 23px; height: 23px; }
+    .bene h3 { font-size: 19px; margin-bottom: 9px; color: var(--ink); }
+    .bene p { margin: 0; font-size: 14.5px; line-height: 1.55; color: var(--ink-2); }
+    .bene.feature { background: var(--ink); border-color: var(--ink); color: var(--light); display: flex; flex-direction: column; justify-content: space-between; }
+    .bene.feature .bene-ic { background: var(--lime); color: var(--ink); }
+    .bene.feature h3 { color: var(--light); }
+    .bene.feature p { color: var(--text-2); }
+    .bene.feature .k { font-family: "Space Grotesk", sans-serif; font-size: 12px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--lime); margin-bottom: 6px; }
+
+    /* ============ PROCESS ============ */
+    .proc-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; margin-top: 8px; }
+    @media (max-width: 900px) { .proc-grid { grid-template-columns: 1fr 1fr; } }
+    @media (max-width: 520px) { .proc-grid { grid-template-columns: 1fr; } }
+    .proc { background: var(--panel); border: 1px solid var(--line); border-radius: 18px; padding: 26px; position: relative; transition: border-color .25s, background .25s, transform .25s; }
+    .proc:hover { border-color: rgba(198,242,78,0.4); background: var(--panel-2); transform: translateY(-3px); }
+    .proc-num { width: 42px; height: 42px; border-radius: 11px; background: var(--lime); color: var(--ink); font-family: "Space Grotesk", sans-serif; font-weight: 700; font-size: 18px; display: grid; place-items: center; margin-bottom: 22px; }
+    .proc h3 { font-size: 18px; margin-bottom: 10px; }
+    .proc p { margin: 0; font-size: 14px; line-height: 1.55; color: var(--text-2); }
+
+    /* ============ LEISTUNGEN ============ */
+    .asset-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+    @media (max-width: 900px) { .asset-grid { grid-template-columns: 1fr 1fr; } }
+    @media (max-width: 560px) { .asset-grid { grid-template-columns: 1fr; } }
+    .asset { background: var(--panel); border: 1px solid var(--line); border-radius: 18px; padding: 26px; transition: border-color .25s, transform .25s, background .25s; }
+    .asset:hover { border-color: var(--line-2); transform: translateY(-4px); background: var(--panel-2); }
+    .asset-top { display: flex; align-items: center; justify-content: space-between; margin-bottom: 20px; }
+    .asset-ic { width: 46px; height: 46px; border-radius: 12px; background: rgba(198,242,78,0.14); color: var(--lime); display: grid; place-items: center; }
+    .asset-ic svg { width: 22px; height: 22px; }
+    .asset-rule { width: 44px; height: 4px; border-radius: 999px; background: var(--line-2); transition: background .25s; }
+    .asset:hover .asset-rule { background: var(--lime); }
+    .asset h3 { font-size: 17.5px; margin-bottom: 9px; }
+    .asset p { margin: 0; font-size: 14px; line-height: 1.55; color: var(--text-2); }
+    .leist-note { margin-top: 26px; text-align: center; max-width: 760px; margin-left: auto; margin-right: auto; padding: 22px 28px; background: var(--panel); border: 1px solid var(--line); border-radius: 16px; font-family: "Space Grotesk", sans-serif; font-size: 17px; font-weight: 600; letter-spacing: -0.01em; }
+    .leist-note b { color: var(--lime); }
+
+    /* ============ IDEAL FOR ============ */
+    .ideal-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 56px; align-items: center; }
+    @media (max-width: 900px) { .ideal-grid { grid-template-columns: 1fr; gap: 36px; } }
+    .ideal-list { display: flex; flex-direction: column; gap: 12px; }
+    .ideal-item { display: flex; gap: 14px; align-items: flex-start; background: #fff; border: 1px solid var(--light-2); border-radius: 14px; padding: 18px 20px; }
+    .ideal-item .c { width: 26px; height: 26px; border-radius: 8px; background: var(--lime); color: var(--ink); display: grid; place-items: center; flex-shrink: 0; }
+    .ideal-item .c svg { width: 15px; height: 15px; }
+    .ideal-item p { margin: 0; font-size: 15px; font-weight: 500; color: var(--ink); line-height: 1.45; }
+    .ideal-note { margin-top: 22px; font-size: 15px; color: var(--ink-2); line-height: 1.6; max-width: 50ch; }
+
+    /* ============ PRICING ============ */
+    .price-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; }
+    @media (max-width: 880px) { .price-grid { grid-template-columns: 1fr; max-width: 460px; margin: 0 auto; } }
+    .price { border: 1px solid var(--line); border-radius: 20px; padding: 30px; background: var(--panel); display: flex; flex-direction: column; }
+    .price.featured { background: var(--lime); color: var(--ink); border-color: var(--lime); box-shadow: 0 30px 60px -28px rgba(198,242,78,0.4); }
+    .price-tier { display: inline-flex; align-self: flex-start; font-family: "Space Grotesk", sans-serif; font-size: 12px; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; padding: 6px 12px; border-radius: 999px; background: var(--panel-2); color: var(--text-2); margin-bottom: 22px; }
+    .price.featured .price-tier { background: rgba(18,22,15,0.16); color: var(--ink); }
+    .price-amt { font-family: "Space Grotesk", sans-serif; font-size: 38px; font-weight: 700; letter-spacing: -0.03em; line-height: 1; margin-bottom: 14px; }
+    .price-desc { font-size: 14px; line-height: 1.55; color: var(--text-2); margin-bottom: 24px; }
+    .price.featured .price-desc { color: rgba(18,22,15,0.7); }
+    .price-feats { list-style: none; margin: 0 0 26px; padding: 0; display: flex; flex-direction: column; gap: 12px; }
+    .price-feats li { display: flex; align-items: center; gap: 10px; font-size: 14.5px; color: var(--text-2); }
+    .price.featured .price-feats li { color: var(--ink); }
+    .price-feats li svg { width: 17px; height: 17px; color: var(--lime-deep); flex-shrink: 0; }
+    .price.featured .price-feats li svg { color: var(--ink); }
+    .price .btn { margin-top: auto; justify-content: center; }
+    .price .btn-ghost { color: var(--text); border-color: var(--line-2); }
+    .price.featured .btn { background: var(--ink); color: var(--lime); border-color: var(--ink); box-shadow: none; }
+    .price.featured .btn:hover { background: #000; }
+    .price-cta { margin-top: 28px; display: flex; flex-direction: column; align-items: center; gap: 16px; text-align: center; padding: 32px; background: var(--panel); border: 1px solid var(--line); border-radius: 20px; }
+    .price-cta p { margin: 0; font-family: "Space Grotesk", sans-serif; font-size: 20px; font-weight: 600; letter-spacing: -0.01em; }
+
+    /* ============ CASE ============ */
+    .case-grid { display: grid; grid-template-columns: 0.9fr 1.1fr; gap: 48px; align-items: center; }
+    @media (max-width: 900px) { .case-grid { grid-template-columns: 1fr; gap: 32px; } }
+    .case-rows { display: grid; gap: 12px; }
+    .case-row { background: var(--panel); border: 1px solid var(--line); border-radius: 16px; padding: 22px 24px; }
+    .case-row .k { font-family: "Space Grotesk", sans-serif; font-size: 11.5px; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--lime); margin-bottom: 8px; }
+    .case-row p { margin: 0; font-size: 15px; line-height: 1.55; color: var(--text-2); }
+    .case-row.result { background: var(--lime); border-color: var(--lime); }
+    .case-row.result .k { color: rgba(18,22,15,0.6); }
+    .case-row.result p { color: var(--ink); font-weight: 500; }
+
+    /* ============ ABOUT ============ */
+    .about-grid { display: grid; grid-template-columns: 1.1fr 0.9fr; gap: 56px; align-items: center; }
+    @media (max-width: 900px) { .about-grid { grid-template-columns: 1fr; gap: 36px; } }
+    .about-points { display: grid; gap: 12px; margin-top: 26px; }
+    .about-points div { display: flex; gap: 12px; align-items: flex-start; font-size: 15.5px; color: var(--text); line-height: 1.5; }
+    .about-points svg { width: 19px; height: 19px; color: var(--lime); flex-shrink: 0; margin-top: 3px; }
+    .about-card { background: linear-gradient(180deg, rgba(255,255,255,0.06), rgba(255,255,255,0.02)); border: 1px solid var(--line-2); border-radius: 22px; padding: 30px; }
+    .about-card .ac-brand { display: flex; align-items: center; gap: 11px; margin-bottom: 26px; }
+    .about-stats { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+    .about-stat { background: var(--panel); border: 1px solid var(--line); border-radius: 14px; padding: 20px; }
+    .about-stat b { font-family: "Space Grotesk", sans-serif; font-size: 27px; font-weight: 700; letter-spacing: -0.02em; color: var(--lime); display: block; line-height: 1; }
+    .about-stat span { font-size: 12px; color: var(--muted); letter-spacing: 0.04em; text-transform: uppercase; margin-top: 8px; display: block; font-family: "Space Grotesk", sans-serif; font-weight: 500; }
+
+    /* ============ FAQ ============ */
+    .faq-list { display: flex; flex-direction: column; gap: 12px; max-width: 860px; margin: 0 auto; }
+    .faq-item { background: var(--panel); border: 1px solid var(--line); border-radius: 16px; overflow: hidden; transition: border-color .25s, background .25s; }
+    .faq-item[open] { border-color: var(--line-2); background: var(--panel-2); }
+    .faq-q { list-style: none; cursor: pointer; display: flex; align-items: center; justify-content: space-between; gap: 18px; padding: 22px 26px; font-family: "Space Grotesk", sans-serif; font-size: 17px; font-weight: 600; letter-spacing: -0.01em; color: var(--text); }
+    .faq-q::-webkit-details-marker { display: none; }
+    .faq-q .chev { width: 30px; height: 30px; border-radius: 8px; background: var(--panel-2); color: var(--lime); display: grid; place-items: center; flex-shrink: 0; transition: transform .3s, background .3s; }
+    .faq-q .chev svg { width: 15px; height: 15px; }
+    .faq-item[open] .chev { transform: rotate(180deg); background: var(--lime); color: var(--ink); }
+    .faq-a { padding: 0 26px 24px; font-size: 15px; line-height: 1.65; color: var(--text-2); max-width: 72ch; }
+
+    /* ============ FINAL ============ */
+    .final { position: relative; text-align: center; border: 1px solid var(--line-2); border-radius: 28px; padding: clamp(48px, 7vw, 92px); overflow: hidden; background: linear-gradient(180deg, var(--bg-2), var(--bg)); }
+    .final::before { content: ""; position: absolute; inset: 0; background: radial-gradient(60% 80% at 50% 0%, rgba(198,242,78,0.16), transparent 70%); pointer-events: none; }
+    .final > * { position: relative; }
+    .final h2 { margin: 18px auto 22px; max-width: 18ch; }
+    .final p { margin: 0 auto 34px; max-width: 60ch; color: var(--text-2); font-size: 17px; line-height: 1.6; }
+    .final .eyebrow { justify-content: center; }
+    .final-meta { display: block; margin-top: 18px; font-size: 13px; color: var(--muted); }
+
+    /* ============ FOOTER ============ */
+    footer { border-top: 1px solid var(--line); padding: 64px 0 40px; }
+    .foot { display: grid; grid-template-columns: 1.6fr 1fr 1fr 1fr; gap: 40px; margin-bottom: 44px; }
+    @media (max-width: 720px) { .foot { grid-template-columns: 1fr 1fr; gap: 28px; } }
+    .foot-brand p { margin: 16px 0 0; font-size: 14px; color: var(--muted); max-width: 34ch; line-height: 1.55; }
+    .foot-col h5 { margin: 0 0 16px; font-family: "Space Grotesk", sans-serif; font-size: 12px; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); }
+    .foot-col ul { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 11px; }
+    .foot-col li a { font-size: 14.5px; color: var(--text-2); transition: color .2s; }
+    .foot-col li a:hover { color: var(--lime); }
+    .foot-bot { display: flex; align-items: center; justify-content: space-between; gap: 16px; flex-wrap: wrap; padding-top: 26px; border-top: 1px solid var(--line); font-size: 12px; letter-spacing: 0.06em; color: var(--muted); font-family: "Space Grotesk", sans-serif; }
+
+    /* ============================================================
+       MODERN MOTION SYSTEM
+       ============================================================ */
+    /* scroll progress bar */
+    .scroll-prog { position: fixed; top: 0; left: 0; height: 3px; width: 0; z-index: 200; background: linear-gradient(90deg, var(--lime), var(--lime-2)); box-shadow: 0 0 14px rgba(198,242,78,0.7); }
+
+    /* animated aurora background */
+    .aurora { position: fixed; inset: 0; z-index: -1; pointer-events: none; overflow: hidden; }
+    .aurora i { position: absolute; border-radius: 50%; filter: blur(90px); opacity: 0.5; display: block; }
+    .aurora i:nth-child(1) { width: 52vw; height: 52vw; top: -14vw; right: -8vw; background: radial-gradient(circle, rgba(198,242,78,0.22), transparent 60%); animation: aur1 28s ease-in-out infinite alternate; }
+    .aurora i:nth-child(2) { width: 46vw; height: 46vw; bottom: -16vw; left: -10vw; background: radial-gradient(circle, rgba(127,208,196,0.16), transparent 60%); animation: aur2 34s ease-in-out infinite alternate; }
+    .aurora i:nth-child(3) { width: 32vw; height: 32vw; top: 36%; left: 44%; background: radial-gradient(circle, rgba(182,168,245,0.12), transparent 60%); animation: aur1 40s ease-in-out infinite alternate-reverse; }
+    .aurora i:nth-child(4) { width: 40vw; height: 40vw; top: 8%; left: 18%; background: radial-gradient(circle, rgba(127,208,196,0.12), transparent 60%); animation: aur2 24s ease-in-out infinite alternate-reverse; }
+    @keyframes aur1 { to { transform: translate(-14vw, 16vh) scale(1.25); } }
+    @keyframes aur2 { to { transform: translate(16vw, -12vh) scale(1.18); } }
+    @media (prefers-reduced-motion: reduce) { .aurora i { animation: none !important; } }
+
+    /* film grain overlay */
+    .grain { position: fixed; inset: -50%; z-index: -1; pointer-events: none; opacity: 0.05; mix-blend-mode: overlay; background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E"); background-size: 200px 200px; animation: grain 0.9s steps(3) infinite; }
+    @keyframes grain { 0%{transform:translate(0,0)} 33%{transform:translate(-6%,4%)} 66%{transform:translate(5%,-5%)} 100%{transform:translate(0,0)} }
+    @media (prefers-reduced-motion: reduce) { .grain { animation: none; } }
+
+    /* hero three.js canvas */
+    #hero3d { position: absolute; inset: 0; width: 100%; height: 100%; z-index: 0; pointer-events: none; }
+    .hero .container { position: relative; z-index: 1; }
+
+    /* generative dot-grid section */
+    .dotgrid-host { position: relative; }
+    .dotgrid { position: absolute; inset: 0; width: 100%; height: 100%; z-index: 0; pointer-events: none; }
+    .dotgrid-host > .container { position: relative; z-index: 1; }
+
+    /* isometric / layered bento depth for the hero board */
+    .board-cards, .b-card, .board-feed, .board-top { transform-style: preserve-3d; }
+    .b-thumb { transform: translateZ(26px); }
+    .b-card b, .b-card span, .b-bar { transform: translateZ(14px); }
+    .board-top .t-pill { transform: translateZ(34px); }
+    .board-top .t-big { transform: translateZ(18px); }
+    .board-feed { transform: translateZ(10px); }
+    .board-feed .f-head b svg { transform: translateZ(20px); }
+
+    /* reveal: hidden until GSAP/ScrollTrigger animates in (print & fallback safe) */
+    html.js .reveal { opacity: 0; }
+    html.fallback-show .reveal { opacity: 1 !important; transform: none !important; }
+    @media (prefers-reduced-motion: reduce) { html.js .reveal { opacity: 1 !important; transform: none !important; } }
+    @media print { .reveal { opacity: 1 !important; transform: none !important; } }
+
+    /* overlapping stacked panels (premium scroll layering) */
+    .section.panel { border-radius: 42px 42px 0 0; margin-top: -46px; box-shadow: 0 -26px 60px -28px rgba(0,0,0,0.7); }
+    .section.panel::after { content: ""; position: absolute; top: 0; left: 0; right: 0; height: 1px; background: linear-gradient(90deg, transparent, var(--line-2), transparent); border-radius: 42px 42px 0 0; pointer-events: none; }
+    .section.light.panel::after { background: linear-gradient(90deg, transparent, rgba(18,22,15,0.12), transparent); }
+
+    /* 3D tilt */
+    .board-wrap { perspective: 1400px; }
+    .board { transform-style: preserve-3d; }
+    .tilt { transition: transform .3s cubic-bezier(.22,1,.36,1); transform-style: preserve-3d; will-change: transform; }
+
+    /* Lenis smooth scroll */
+    html.lenis, html.lenis body { height: auto; }
+    .lenis.lenis-smooth { scroll-behavior: auto !important; }
+    .lenis.lenis-smooth [data-lenis-prevent] { overscroll-behavior: contain; }
+    .lenis.lenis-stopped { overflow: hidden; }
+
+    /* ============================================================
+       LEFT SECTION NAVIGATOR
+       ============================================================ */
+    .snav { position: fixed; left: 26px; top: 50%; transform: translateY(-50%); z-index: 90; display: flex; align-items: center; gap: 16px; pointer-events: none; }
+    @media (max-width: 1100px) { .snav { display: none; } }
+    .snav-rail { position: relative; display: flex; flex-direction: column; gap: 16px; padding: 4px 0; pointer-events: auto; }
+    .snav-rail::before { content: ""; position: absolute; left: 3.5px; top: 0; bottom: 0; width: 1px; background: var(--line-2); }
+    .snav-fill { position: absolute; left: 3px; top: 0; width: 2px; height: 0; background: var(--lime); box-shadow: 0 0 10px rgba(198,242,78,0.8); border-radius: 2px; transition: height .25s cubic-bezier(.22,1,.36,1); }
+    .snav-dot { width: 8px; height: 8px; border: none; padding: 0; appearance: none; -webkit-appearance: none; border-radius: 50%; background: var(--line-2); position: relative; cursor: pointer; transition: transform .35s cubic-bezier(.22,1,.36,1), background .35s; }
+    .snav-dot::after { content: attr(data-name); position: absolute; left: 20px; top: 50%; transform: translateY(-50%) translateX(-8px); white-space: nowrap; font-family: "Space Grotesk", sans-serif; font-size: 11.5px; font-weight: 600; letter-spacing: 0.02em; color: var(--text-2); opacity: 0; transition: opacity .25s, transform .25s; pointer-events: none; }
+    .snav-dot:hover::after { opacity: 1; transform: translateY(-50%) translateX(0); }
+    .snav-dot.active { background: var(--lime); transform: scale(1.7); box-shadow: 0 0 0 4px rgba(198,242,78,0.16); }
+    /* big rotating section index + name */
+    .snav-meta { display: flex; flex-direction: column; gap: 4px; min-width: 0; }
+    .snav-index { font-family: "Space Grotesk", sans-serif; font-size: 13px; font-weight: 700; letter-spacing: 0.14em; color: var(--lime); height: 16px; overflow: hidden; }
+    .snav-index .roll { display: block; transition: transform .4s cubic-bezier(.22,1,.36,1); }
+    .snav-name { font-family: "Space Grotesk", sans-serif; font-size: 11px; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: var(--muted); height: 14px; overflow: hidden; position: relative; }
+    .snav-name span { display: block; transition: transform .45s cubic-bezier(.22,1,.36,1), opacity .45s; }
+
+    /* ============================================================
+       CRAZIER REVEAL HELPERS
+       ============================================================ */
+    .word { display: inline-block; will-change: transform, opacity; }
+    .word .ws { display: inline-block; }
+
+    /* ticker / marquee band */
+    .ticker { position: relative; padding: 26px 0; overflow: hidden; background: var(--bg-2); border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); -webkit-mask-image: linear-gradient(90deg, transparent, #000 7%, #000 93%, transparent); mask-image: linear-gradient(90deg, transparent, #000 7%, #000 93%, transparent); }
+    .ticker-scale { transform-origin: center center; will-change: transform; }
+    .ticker-track { display: flex; width: max-content; gap: 0; animation: ticker 34s linear infinite; }
+    .ticker:hover .ticker-track { animation-play-state: paused; }
+    .ticker-item { display: inline-flex; align-items: center; gap: 44px; padding-right: 44px; font-family: "Space Grotesk", sans-serif; font-size: clamp(20px, 2.6vw, 32px); font-weight: 600; letter-spacing: -0.02em; color: var(--text-2); white-space: nowrap; }
+    .ticker-item b { color: var(--lime); font-weight: 600; }
+    .ticker-item::after { content: "✦"; color: var(--lime); font-size: 0.5em; transform: translateY(-2px); }
+    @keyframes ticker { to { transform: translateX(-50%); } }
+    @media (prefers-reduced-motion: reduce) { .ticker-track { animation: none; } }
+
+    /* magnetic button wrapper keeps layout stable */
+    .btn.magnetic { transition: transform .2s cubic-bezier(.22,1,.36,1), background .22s ease, box-shadow .22s ease; }
+
+    /* hero entrance — hidden until GSAP timeline (fallback safe) */
+    html.js .hero .badge, html.js .hero h1, html.js .hero .hero-sub, html.js .hero .hero-cta, html.js .hero .hero-ideal, html.js .board-wrap { opacity: 0; }
+    html.fallback-show .hero .badge, html.fallback-show .hero h1, html.fallback-show .hero .hero-sub, html.fallback-show .hero .hero-cta, html.fallback-show .hero .hero-ideal, html.fallback-show .board-wrap { opacity: 1 !important; transform: none !important; }
+    @media (prefers-reduced-motion: reduce) { html.js .hero .badge, html.js .hero h1, html.js .hero .hero-sub, html.js .hero .hero-cta, html.js .hero .hero-ideal, html.js .board-wrap { opacity: 1; } }
+    @media print { .hero .badge, .hero h1, .hero .hero-sub, .hero .hero-cta, .hero .hero-ideal, .board-wrap { opacity: 1 !important; transform: none !important; } }
+
+    /* progress bars animate from 0 */
+    .b-bar i { width: 0 !important; transition: width 1.1s cubic-bezier(.22,1,.36,1); }
+    .b-bar.run i { width: var(--w) !important; }
+  </style>
+</head>
+<body>
+  <div class="aurora" aria-hidden="true"><i></i><i></i><i></i><i></i></div>
+  <div class="grain" aria-hidden="true"></div>
+  <header class="header" id="header">
+    <div class="header-inner">
+      <a href="#top" class="brand">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="1.5"></rect><rect x="14" y="3" width="7" height="7" rx="1.5"></rect><rect x="3" y="14" width="7" height="7" rx="1.5"></rect><rect x="14" y="14" width="7" height="7" rx="1.5"></rect></svg>
+        </span>
+        <span class="brand-name">Design<span>Dock</span></span>
+      </a>
+      <nav class="nav" aria-label="primary">
+        <a href="#problem">Problem</a>
+        <a href="#prozess">Prozess</a>
+        <a href="#leistungen">Leistungen</a>
+        <a href="#pakete">Pakete</a>
+        <a href="#faq">FAQ</a>
+      </nav>
+      <a href="#kontakt" class="btn"><span class="full">Erstgespräch sichern</span><span class="short" style="display:none">Anfragen</span>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 5l7 7-7 7"></path></svg>
+      </a>
+    </div>
+  </header>
+
+  <main id="top">
+
+    <!-- ============ HERO ============ -->
+    <section class="hero" data-screen-label="01 Hero">
+      <canvas id="hero3d" aria-hidden="true"></canvas>
+      <div class="container">
+        <div class="hero-inner">
+          <div>
+            <span class="badge"><span class="tag">Design-Flatrate</span> ab <b>2.000 € / Monat</b></span>
+            <h1 class="display">Dein Design-Team zum Festpreis — statt Chaos mit Freelancern.</h1>
+            <p class="lead hero-sub">Mit der Design-Flatrate von DesignDock bekommst du ein eingespieltes Team, das laufend deine Grafiken, Ads, Landingpage-Visuals und Brand-Assets umsetzt — für Unternehmen mit regelmäßigem Designbedarf.</p>
+            <div class="hero-cta">
+              <a href="#kontakt" class="btn btn-lg"><span>Kostenloses Beratungsgespräch</span>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 5l7 7-7 7"></path></svg>
+              </a>
+              <a href="#prozess" class="btn btn-lg btn-ghost"><span>So funktioniert es</span></a>
+            </div>
+            <div class="hero-ideal">
+              <span class="lbl">Ideal für</span>
+              <span class="chip">Agenturen</span>
+              <span class="chip">E-Commerce</span>
+              <span class="chip">SaaS</span>
+              <span class="chip">Performance-Teams</span>
+            </div>
+          </div>
+
+          <div class="board-wrap">
+            <div class="float-tag f1">
+              <span class="ft-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path></svg></span>
+              <span><b>Festes Team</b><span>kein Freelancer-Chaos</span></span>
+            </div>
+            <div class="float-tag f2">
+              <span class="ft-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path></svg></span>
+              <span><b>ab 2.000 €</b><span>monatlich planbar</span></span>
+            </div>
+
+            <div class="board" aria-hidden="true">
+              <div class="board-top">
+                <div>
+                  <div class="t-lbl">Design Output Board</div>
+                  <div class="t-big">12 laufende Tasks</div>
+                </div>
+                <span class="t-pill">On Track</span>
+              </div>
+              <div class="board-cards">
+                <div class="b-card">
+                  <div class="b-thumb g1"><i></i><i></i><i></i></div>
+                  <b>Social Ads</b><span>4 Creatives</span>
+                  <div class="b-bar" style="--w:95%"><i></i></div>
+                </div>
+                <div class="b-card">
+                  <div class="b-thumb g2"><i></i><i></i><i></i></div>
+                  <b>Landingpage</b><span>Hero Visual</span>
+                  <div class="b-bar" style="--w:72%"><i></i></div>
+                </div>
+                <div class="b-card">
+                  <div class="b-thumb g3"><i></i><i></i><i></i></div>
+                  <b>Sales Deck</b><span>14 Slides</span>
+                  <div class="b-bar" style="--w:88%"><i></i></div>
+                </div>
+              </div>
+              <div class="board-feed">
+                <div class="f-head">
+                  <b><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg> Zentraler Design-Kanal</b>
+                  <span>Feedback-Runde 2/2</span>
+                </div>
+                <div class="f-line w1"></div>
+                <div class="f-line w2"></div>
+                <div class="f-line w3"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ TICKER ============ -->
+    <div class="ticker" aria-hidden="true">
+      <div class="ticker-scale">
+        <div class="ticker-track">
+        <span class="ticker-item">Social Ads</span><span class="ticker-item"><b>Landingpage-Visuals</b></span><span class="ticker-item">Pitch-Decks</span><span class="ticker-item">Brand-Assets</span><span class="ticker-item"><b>Social-Media-Grafiken</b></span><span class="ticker-item">Kampagnen-Creatives</span><span class="ticker-item">PDF-Broschüren</span><span class="ticker-item"><b>Format-Adaptionen</b></span>
+        <span class="ticker-item">Social Ads</span><span class="ticker-item"><b>Landingpage-Visuals</b></span><span class="ticker-item">Pitch-Decks</span><span class="ticker-item">Brand-Assets</span><span class="ticker-item"><b>Social-Media-Grafiken</b></span><span class="ticker-item">Kampagnen-Creatives</span><span class="ticker-item">PDF-Broschüren</span><span class="ticker-item"><b>Format-Adaptionen</b></span>
+      </div>
+      </div>
+    </div>
+
+    <!-- ============ PROBLEM ============ -->
+    <section class="section" id="problem" data-screen-label="02 Problem">
+      <div class="container">
+        <div class="section-head center">
+          <span class="eyebrow">Das Kernproblem</span>
+          <h2 class="h-sec">Zu viel Designbedarf für Einzel-Freelancer — zu wenig für ein Inhouse-Team.</h2>
+          <p class="lead">Viele Unternehmen hängen genau dazwischen: zu viele Designaufgaben für „mal eben", aber zu wenig Volumen für eine komplette Abteilung. Typische Folgen:</p>
+        </div>
+        <div class="prob-grid">
+          <div class="prob-card"><span class="x"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18M6 6l12 12"></path></svg></span><p>Du jonglierst mit mehreren Freelancern und Agenturen — jeder arbeitet anders, nichts wirkt wie aus einem Guss.</p></div>
+          <div class="prob-card"><span class="x"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18M6 6l12 12"></path></svg></span><p>Deadlines werden gerissen, weil Designer überlastet sind oder spontan ausfallen.</p></div>
+          <div class="prob-card"><span class="x"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18M6 6l12 12"></path></svg></span><p>Du verbringst zu viel Zeit mit Briefings, Feedback-Schleifen und Nachfragen.</p></div>
+          <div class="prob-card"><span class="x"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18M6 6l12 12"></path></svg></span><p>Kampagnen, Ads und Landingpages ziehen sich, weil Design der Flaschenhals ist.</p></div>
+          <div class="prob-feature">
+            <div>
+              <h3>Dein aktuelles Design-Setup ist eher ein Wachstumsbremser — statt ein Hebel.</h3>
+              <p>Der Engpass ist selten „zu wenig Ideen". Der Engpass ist ein System, das gute Ideen nicht schnell genug in saubere Assets übersetzt.</p>
+            </div>
+            <a href="#kontakt" class="btn"><span>Beratungsgespräch sichern</span>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 5l7 7-7 7"></path></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ ZIELBILD / BENEFITS ============ -->
+    <section class="section light on-light" data-screen-label="03 Zielbild">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">Zielbild</span>
+          <h2 class="h-sec">So sollte Design in deinem Unternehmen funktionieren</h2>
+          <p class="lead">Statt jedes Mal neu zu suchen, zu verhandeln und zu erklären, hast du ein festes Design-Team an deiner Seite — eingespielt, planbar und konsistent.</p>
+        </div>
+        <div class="bene-grid">
+          <div class="bene"><div class="bene-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path></svg></div><h3>Fester Ansprechpartner</h3><p>Ein zentraler Ansprechpartner, der deine Marke kennt und mitdenkt.</p></div>
+          <div class="bene"><div class="bene-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"></rect><path d="M3 9h18M9 21V9"></path></svg></div><h3>Klarer Prozess</h3><p>Aufgaben rein, Priorität festlegen, Ergebnisse im vereinbarten Zeitfenster.</p></div>
+          <div class="bene"><div class="bene-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m12 2 9 5-9 5-9-5 9-5zM3 12l9 5 9-5M3 17l9 5 9-5"></path></svg></div><h3>Assets aus einem Guss</h3><p>Von Social Ads über Landingpage-Visuals bis zu Präsentationen — alles konsistent.</p></div>
+          <div class="bene"><div class="bene-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path></svg></div><h3>Planbare Kosten</h3><p>Transparente monatliche Pakete statt ständig wechselnder Einzelrechnungen.</p></div>
+          <div class="bene"><div class="bene-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2 3 14h9l-1 8 10-12h-9l1-8z"></path></svg></div><h3>Mehr Kampagnen-Speed</h3><p>Genug Kapazität, um Kampagnen schneller zu launchen, zu testen und zu skalieren.</p></div>
+          <div class="bene feature">
+            <div>
+              <div class="k">Genau dafür</div>
+              <h3>gibt es die Design-Flatrate von DesignDock.</h3>
+            </div>
+            <p>Ein festes Team, das sich anfühlt wie Inhouse — nur ohne Recruiting, Fixkosten und Freelancer-Chaos.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PROZESS ============ -->
+    <section class="section" id="prozess" data-screen-label="04 Prozess">
+      <div class="container">
+        <div class="section-head center">
+          <span class="eyebrow">System statt Zufall</span>
+          <h2 class="h-sec">Wie die Design-Flatrate von DesignDock funktioniert</h2>
+          <p class="lead">Wir kombinieren ein festes Design-Team mit klaren Prozessen — damit du zuverlässig und schnell an hochwertige Designs kommst. Ohne Recruiting, ohne Freelancer-Chaos.</p>
+        </div>
+        <div class="proc-grid">
+          <div class="proc"><div class="proc-num">1</div><h3>Onboarding &amp; Brand-Setup</h3><p>Im Start-Call klären wir Marke, Zielgruppen, Kanäle und wiederkehrende Bedarfe. Wir legen Guidelines, Beispiele und Prioritäten fest.</p></div>
+          <div class="proc"><div class="proc-num">2</div><h3>Aufgaben einreichen</h3><p>Du reichst deine Designwünsche über einen zentralen Kanal ein: Social Ads, Visuals, Präsentationen, PDFs, Social-Media-Grafiken — alles an einem Ort.</p></div>
+          <div class="proc"><div class="proc-num">3</div><h3>Umsetzung &amp; Feedback</h3><p>Wir priorisieren, setzen in der vereinbarten Geschwindigkeit um und gehen strukturierte Feedback-Schleifen, bis das Ergebnis passt.</p></div>
+          <div class="proc"><div class="proc-num">4</div><h3>Skalierung</h3><p>Du hast jeden Monat ein festes Kontingent — und erweiterst bei wachsendem Bedarf. So wächst dein Design-Output mit deinem Unternehmen.</p></div>
+        </div>
+        <div style="margin-top: 40px; display: flex; flex-direction: column; align-items: center; gap: 18px; text-align: center;">
+          <p style="font-family: 'Space Grotesk', sans-serif; font-size: 19px; font-weight: 600; max-width: 36ch; margin: 0;">Möchtest du prüfen, ob eine Design-Flatrate für dein Unternehmen sinnvoll ist?</p>
+          <a href="#kontakt" class="btn btn-lg"><span>Kostenloses Beratungsgespräch</span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 5l7 7-7 7"></path></svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ LEISTUNGEN ============ -->
+    <section class="section dotgrid-host" id="leistungen" style="background: var(--bg-2);" data-screen-label="05 Leistungen">
+      <canvas class="dotgrid" aria-hidden="true"></canvas>
+      <div class="container">
+        <div class="section-head center">
+          <span class="eyebrow">Leistungen</span>
+          <h2 class="h-sec">Was wir im Rahmen der Design-Flatrate umsetzen</h2>
+          <p class="lead">Je nach Paket decken wir unter anderem folgende Bereiche ab:</p>
+        </div>
+        <div class="asset-grid">
+          <div class="asset"><div class="asset-top"><span class="asset-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m12 19 7-7 3 3-7 7-3-3z"></path><path d="m18 13-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"></path><path d="M2 2l7.586 7.586"></path><circle cx="11" cy="11" r="2"></circle></svg></span><span class="asset-rule"></span></div><h3>Performance-Marketing Creatives</h3><p>Social Ads, Display-Banner, Kampagnen-Creatives und Format-Adaptionen.</p></div>
+          <div class="asset"><div class="asset-top"><span class="asset-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"></rect><path d="M3 9h18M9 21V9"></path></svg></span><span class="asset-rule"></span></div><h3>Landingpage-Visuals</h3><p>Grafiken, Sektionen, Hero-Visuals und conversion-orientierte Website-Assets.</p></div>
+          <div class="asset"><div class="asset-top"><span class="asset-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg></span><span class="asset-rule"></span></div><h3>Social-Media-Grafiken</h3><p>Content-Formate, Post-Designs, Templates und wiederkehrende Formate.</p></div>
+          <div class="asset"><div class="asset-top"><span class="asset-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"></path><path d="M7 15l4-4 3 3 5-6"></path></svg></span><span class="asset-rule"></span></div><h3>Pitch-Decks &amp; PDFs</h3><p>Sales-Präsentationen, PDF-Broschüren und strukturierte Business-Unterlagen.</p></div>
+          <div class="asset"><div class="asset-top"><span class="asset-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l1.9 5.8H20l-4.9 3.6 1.9 5.8L12 14.6 7 18.2l1.9-5.8L4 8.8h6.1z"></path></svg></span><span class="asset-rule"></span></div><h3>Brand-Assets</h3><p>Icons, einfache Illustrationen, Templates und visuelle Bausteine.</p></div>
+          <div class="asset"><div class="asset-top"><span class="asset-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m12 2 9 5-9 5-9-5 9-5zM3 12l9 5 9-5M3 17l9 5 9-5"></path></svg></span><span class="asset-rule"></span></div><h3>Design-Adaptionen</h3><p>Bestehende Designs sauber für weitere Kanäle, Sprachen und Formate adaptieren.</p></div>
+        </div>
+        <div class="leist-note">Wichtig: Wir sind kein „One-Shot-Logo-Designer", sondern dein <b>laufendes Design-Team</b> für Unternehmen mit regelmäßigem Bedarf.</div>
+      </div>
+    </section>
+
+    <!-- ============ IDEAL FÜR ============ -->
+    <section class="section light on-light" data-screen-label="06 Ideal für">
+      <div class="container">
+        <div class="ideal-grid">
+          <div>
+            <span class="eyebrow">Ideal für</span>
+            <h2 class="h-sec" style="margin: 18px 0 0;">Für welche Unternehmen ist DesignDock die richtige Wahl?</h2>
+            <p class="ideal-note">Die Design-Flatrate ist ideal für Unternehmen, die laufend Design benötigen und bereit sind, mindestens 2.000 € pro Monat zu investieren. Wenn du nur gelegentlich ein einzelnes Design brauchst, ist unser Modell nicht passend — wenn du laufend Design benötigst und Stabilität suchst, bist du hier richtig.</p>
+          </div>
+          <div class="ideal-list">
+            <div class="ideal-item"><span class="c"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="5 12 10 17 19 7"></polyline></svg></span><p>Agenturen mit konstantem Bedarf an Werbemitteln und Präsentationen</p></div>
+            <div class="ideal-item"><span class="c"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="5 12 10 17 19 7"></polyline></svg></span><p>E-Commerce-Brands mit laufenden Kampagnen, Launches und Aktionen</p></div>
+            <div class="ideal-item"><span class="c"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="5 12 10 17 19 7"></polyline></svg></span><p>SaaS- und Tech-Unternehmen mit Bedarf an Produkt- und Marketing-Visuals</p></div>
+            <div class="ideal-item"><span class="c"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="5 12 10 17 19 7"></polyline></svg></span><p>Dienstleister mit starkem Online-Fokus: Webinare, Funnels, Ads, Content</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PRICING ============ -->
+    <section class="section" id="pakete" data-screen-label="07 Pricing">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">Pricing</span>
+          <h2 class="h-sec">Transparente Pakete statt Überraschungsrechnungen</h2>
+          <p class="lead">Unsere Design-Flatrate startet ab 2.000 € pro Monat. Im Beratungsgespräch klären wir, welches Paket zu deinem Bedarf passt — abhängig von Umfang, Geschwindigkeit und Kanälen.</p>
+        </div>
+        <div class="price-grid">
+          <div class="price featured">
+            <span class="price-tier">Starter</span>
+            <div class="price-amt">ab 2.000 €</div>
+            <p class="price-desc">Für Unternehmen mit konstantem Designbedarf und klar priorisierten Aufgaben.</p>
+            <ul class="price-feats">
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="5 12 10 17 19 7"></polyline></svg> Festes Kontingent</li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="5 12 10 17 19 7"></polyline></svg> Zentraler Kanal</li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="5 12 10 17 19 7"></polyline></svg> Strukturierte Feedback-Loops</li>
+            </ul>
+            <a href="#kontakt" class="btn"><span>Paket besprechen</span></a>
+          </div>
+          <div class="price">
+            <span class="price-tier">Growth</span>
+            <div class="price-amt">individuell</div>
+            <p class="price-desc">Für Teams mit mehreren Kanälen, Kampagnen und höherer Geschwindigkeit.</p>
+            <ul class="price-feats">
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="5 12 10 17 19 7"></polyline></svg> Größeres Kontingent</li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="5 12 10 17 19 7"></polyline></svg> Mehrere Kanäle</li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="5 12 10 17 19 7"></polyline></svg> Schnellere Turnarounds</li>
+            </ul>
+            <a href="#kontakt" class="btn btn-ghost"><span>Paket besprechen</span></a>
+          </div>
+          <div class="price">
+            <span class="price-tier">Scale</span>
+            <div class="price-amt">individuell</div>
+            <p class="price-desc">Für Agenturen, E-Commerce-Brands und Performance-Teams mit hohem Output.</p>
+            <ul class="price-feats">
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="5 12 10 17 19 7"></polyline></svg> Maximales Kontingent</li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="5 12 10 17 19 7"></polyline></svg> Dauerhaft hoher Output</li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="5 12 10 17 19 7"></polyline></svg> Priorisierte Umsetzung</li>
+            </ul>
+            <a href="#kontakt" class="btn btn-ghost"><span>Paket besprechen</span></a>
+          </div>
+        </div>
+        <div class="price-cta">
+          <p>Im Gespräch klären wir, ob und welches Paket für dich Sinn ergibt.</p>
+          <a href="#kontakt" class="btn btn-lg"><span>Beratungsgespräch vereinbaren</span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 5l7 7-7 7"></path></svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CASE ============ -->
+    <section class="section" style="background: var(--bg-2);" data-screen-label="08 Case">
+      <div class="container">
+        <div class="case-grid">
+          <div>
+            <span class="eyebrow">Beispiel-Case</span>
+            <h2 class="h-sec" style="margin: 18px 0 16px;">Performance-Agentur mit 10+ Kunden</h2>
+            <p class="lead">Wie Unternehmen mit laufendem Designbedarf von DesignDock profitieren — von der Time-to-Market bis zum konsistenten Markenauftritt.</p>
+          </div>
+          <div class="case-rows">
+            <div class="case-row"><div class="k">Ausgangssituation</div><p>Viele parallele Kampagnen, wechselnde Designer, uneinheitliche Creatives, langsame Umsetzung.</p></div>
+            <div class="case-row"><div class="k">Ziel</div><p>Einheitlicher Markenauftritt für Agentur und Kunden, schnellere Produktion von Werbemitteln.</p></div>
+            <div class="case-row"><div class="k">Umsetzung mit DesignDock</div><p>Zentrales Design-Board, feste Priorisierung, laufende Produktion von Ad-Creatives, Landingpage-Visuals und Präsentationen.</p></div>
+            <div class="case-row result"><div class="k">Ergebnis</div><p>Kürzere Time-to-Market für Kampagnen, weniger Abstimmungsaufwand und ein konsistenter Markenauftritt.</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ ABOUT ============ -->
+    <section class="section" data-screen-label="09 About">
+      <div class="container">
+        <div class="about-grid">
+          <div>
+            <span class="eyebrow">Über DesignDock</span>
+            <h2 class="h-sec" style="margin: 18px 0 18px;">Wer hinter DesignDock steht</h2>
+            <p class="lead">DesignDock ist auf Design für wachstumsorientierte Unternehmen spezialisiert, die regelmäßig neue Assets brauchen — ohne jedes Mal neue Designer suchen zu müssen.</p>
+            <div class="about-points">
+              <div><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="5 12 10 17 19 7"></polyline></svg>Wir denken in Kampagnen, nicht in Einzelgrafiken.</div>
+              <div><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="5 12 10 17 19 7"></polyline></svg>Wir kennen deine Marke und Zielgruppen und arbeiten vorausschauend.</div>
+              <div><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="5 12 10 17 19 7"></polyline></svg>Klare Prozesse plus ein festes Team — fühlt sich an wie Inhouse, ohne Fixkosten.</div>
+            </div>
+          </div>
+          <div class="about-card">
+            <div class="ac-brand">
+              <span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="1.5"></rect><rect x="14" y="3" width="7" height="7" rx="1.5"></rect><rect x="3" y="14" width="7" height="7" rx="1.5"></rect><rect x="14" y="14" width="7" height="7" rx="1.5"></rect></svg></span>
+              <span class="brand-name">Design<span>Dock</span></span>
+            </div>
+            <div class="about-stats">
+              <div class="about-stat"><b data-count="2000" data-suffix=" €+">2.000 €+</b><span>Monatsbudget</span></div>
+              <div class="about-stat"><b>2–5 Tage</b><span>erste Entwürfe</span></div>
+              <div class="about-stat"><b>1 Kanal</b><span>für alle Aufgaben</span></div>
+              <div class="about-stat"><b>Team</b><span>statt Einzelperson</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ FAQ ============ -->
+    <section class="section" id="faq" style="background: var(--bg-2);" data-screen-label="10 FAQ">
+      <div class="container">
+        <div class="section-head center">
+          <span class="eyebrow">FAQ</span>
+          <h2 class="h-sec">Häufige Fragen zur Design-Flatrate</h2>
+        </div>
+        <div class="faq-list">
+          <details class="faq-item" open>
+            <summary class="faq-q">Wie viel kann ich pro Monat an Designs anfragen?<span class="chev"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg></span></summary>
+            <div class="faq-a">Das hängt vom gewählten Paket ab. Im Gespräch klären wir, welche Menge und Geschwindigkeit du brauchst, und empfehlen dir ein passendes Kontingent.</div>
+          </details>
+          <details class="faq-item">
+            <summary class="faq-q">Gibt es eine Mindestlaufzeit?<span class="chev"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg></span></summary>
+            <div class="faq-a">Wir empfehlen eine Mindestlaufzeit von 3 Monaten. So haben beide Seiten genug Zeit, um Prozesse einzuspielen und Ergebnisse messbar zu machen.</div>
+          </details>
+          <details class="faq-item">
+            <summary class="faq-q">Was, wenn ich in einem Monat weniger Bedarf habe?<span class="chev"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg></span></summary>
+            <div class="faq-a">Wir planen gemeinsam. Je nach Paket können Aufgaben gebündelt oder in Content-Reserven wie Vorlagen, Evergreen-Assets oder Kampagnenvarianten investiert werden.</div>
+          </details>
+          <details class="faq-item">
+            <summary class="faq-q">Macht ihr auch einmalige Projekte?<span class="chev"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg></span></summary>
+            <div class="faq-a">Unser Fokus liegt auf laufenden Kunden mit regelmäßigem Bedarf. Einzelprojekte übernehmen wir nur, wenn sie zu unserer Arbeitsweise passen — das klären wir im Gespräch.</div>
+          </details>
+          <details class="faq-item">
+            <summary class="faq-q">Wie schnell bekomme ich Ergebnisse?<span class="chev"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg></span></summary>
+            <div class="faq-a">Je nach Umfang und Paket erhältst du erste Entwürfe in der Regel innerhalb von 2–5 Werktagen. Im Beratungsgespräch geben wir dir eine realistische Einschätzung.</div>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ FINAL ============ -->
+    <section class="section" id="kontakt" data-screen-label="11 Final CTA">
+      <div class="container">
+        <div class="final">
+          <span class="eyebrow">Nächster Schritt</span>
+          <h2 class="display">Lass Design nicht länger dein Bottleneck sein.</h2>
+          <p>Wenn du laufend Design brauchst und keine Lust mehr auf Freelancer-Chaos, wechselnde Agenturen und unklare Kosten hast, dann lass uns sprechen. Im kostenlosen Beratungsgespräch klären wir, ob eine Design-Flatrate von DesignDock zu deinem Bedarf passt.</p>
+          <a href="#" class="btn btn-lg"><span>Kostenloses Beratungsgespräch sichern</span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 5l7 7-7 7"></path></svg>
+          </a>
+          <span class="final-meta">Unverbindlich · ca. 20–30 Minuten · telefonisch oder per Zoom</span>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="foot">
+        <div class="foot-brand">
+          <a href="#top" class="brand">
+            <span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="1.5"></rect><rect x="14" y="3" width="7" height="7" rx="1.5"></rect><rect x="3" y="14" width="7" height="7" rx="1.5"></rect><rect x="14" y="14" width="7" height="7" rx="1.5"></rect></svg></span>
+            <span class="brand-name">Design<span>Dock</span></span>
+          </a>
+          <p>Deine Design-Flatrate für Unternehmen mit laufendem Designbedarf — festes Team, planbare Kosten.</p>
+        </div>
+        <div class="foot-col">
+          <h5>Leistungen</h5>
+          <ul>
+            <li><a href="#leistungen">Ad-Creatives</a></li>
+            <li><a href="#leistungen">Landingpage-Visuals</a></li>
+            <li><a href="#leistungen">Pitch-Decks</a></li>
+            <li><a href="#leistungen">Brand-Assets</a></li>
+          </ul>
+        </div>
+        <div class="foot-col">
+          <h5>Unternehmen</h5>
+          <ul>
+            <li><a href="#prozess">Prozess</a></li>
+            <li><a href="#pakete">Pakete</a></li>
+            <li><a href="#faq">FAQ</a></li>
+            <li><a href="#kontakt">Kontakt</a></li>
+          </ul>
+        </div>
+        <div class="foot-col">
+          <h5>Rechtliches</h5>
+          <ul>
+            <li><a href="#">Impressum</a></li>
+            <li><a href="#">Datenschutz</a></li>
+            <li><a href="#">AGB</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="foot-bot">
+        <span>© 2026 DESIGNDOCK · ALLE RECHTE VORBEHALTEN</span>
+        <span>DESIGN-TEAM ON DEMAND</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@studio-freight/lenis@1.0.42/dist/lenis.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <script>
+  (function () {
+    const root = document.documentElement;
+    root.classList.add('js');
+    const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
+    const fine = matchMedia('(pointer:fine)').matches;
+    const header = document.getElementById('header');
+    const hasGSAP = typeof gsap !== 'undefined' && typeof ScrollTrigger !== 'undefined';
+
+    /* scroll progress */
+    const prog = document.createElement('div'); prog.className = 'scroll-prog'; document.body.appendChild(prog);
+    function updProg() { const max = document.documentElement.scrollHeight - innerHeight; prog.style.width = (max > 0 ? (scrollY / max) * 100 : 0) + '%'; header.classList.toggle('scrolled', scrollY > 12); }
+
+    /* overlap panels */
+    document.querySelectorAll('main > .section').forEach((s, i) => { if (i > 0) { s.classList.add('panel'); s.style.zIndex = String(2 + i); } });
+
+    /* tag reveal elements (CSS hides them under html.js until animated) */
+    const revSel = '.section-head, .prob-card, .prob-feature, .bene, .proc, .asset, .leist-note, .ideal-item, .ideal-note, .price, .price-cta, .case-row, .about-card, .about-points, .faq-item, .final';
+    document.querySelectorAll(revSel).forEach(el => el.classList.add('reveal'));
+
+    /* FAQ single-open */
+    const faqs = document.querySelectorAll('.faq-item');
+    faqs.forEach(it => it.addEventListener('toggle', () => { if (it.open) faqs.forEach(o => { if (o !== it) o.open = false; }); }));
+
+    /* counter */
+    function animateCount(el) {
+      const num = parseFloat(el.dataset.count.replace(',', '.')); const suf = el.dataset.suffix || ''; const pre = el.dataset.prefix || '';
+      const t0 = performance.now(), dur = 1200;
+      (function step(t) { const k = Math.min((t - t0) / dur, 1); const e = 1 - Math.pow(1 - k, 3); const v = num * e; el.textContent = pre + (Number.isInteger(num) ? Math.round(v).toLocaleString('de-DE') : v.toFixed(1).replace('.', ',')) + suf; if (k < 1) requestAnimationFrame(step); })(performance.now());
+    }
+
+    /* hover micro-interactions */
+    if (fine && !reduce) {
+      document.querySelectorAll('.bene, .asset, .price, .about-card, .prob-feature').forEach(card => {
+        card.classList.add('tilt');
+        card.addEventListener('mousemove', e => { const r = card.getBoundingClientRect(); const px = (e.clientX - r.left) / r.width - .5, py = (e.clientY - r.top) / r.height - .5; card.style.transform = `perspective(900px) rotateY(${px * 5.5}deg) rotateX(${-py * 5.5}deg) translateY(-5px)`; });
+        card.addEventListener('mouseleave', () => { card.style.transform = ''; });
+      });
+      document.querySelectorAll('.btn-lg').forEach(btn => { btn.classList.add('magnetic'); btn.addEventListener('mousemove', e => { const r = btn.getBoundingClientRect(); btn.style.transform = `translate(${((e.clientX - r.left) / r.width - .5) * 8}px, ${((e.clientY - r.top) / r.height - .5) * 6}px)`; }); btn.addEventListener('mouseleave', () => { btn.style.transform = ''; }); });
+    }
+
+    /* ---- fallback path: no library or reduced motion ---- */
+    if (!hasGSAP || reduce) {
+      root.classList.add('fallback-show');
+      updProg(); addEventListener('scroll', updProg, { passive: true });
+      const cIO = new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting) { animateCount(e.target); cIO.unobserve(e.target); } }), { threshold: .6 });
+      document.querySelectorAll('[data-count]').forEach(c => cIO.observe(c));
+      document.querySelectorAll('.b-bar').forEach(b => b.classList.add('run'));
+      return;
+    }
+
+    gsap.registerPlugin(ScrollTrigger);
+
+    /* ---- Lenis smooth scroll ---- */
+    let lenis = null;
+    if (typeof Lenis !== 'undefined') {
+      lenis = new Lenis({ lerp: 0.1, smoothWheel: true });
+      lenis.on('scroll', () => { ScrollTrigger.update(); updProg(); });
+      gsap.ticker.add(t => lenis.raf(t * 1000)); gsap.ticker.lagSmoothing(0);
+    } else { addEventListener('scroll', updProg, { passive: true }); }
+    updProg();
+
+    /* smooth anchor nav */
+    document.querySelectorAll('a[href^="#"]').forEach(a => {
+      a.addEventListener('click', e => { const id = a.getAttribute('href'); if (id.length > 1) { const t = document.querySelector(id); if (t) { e.preventDefault(); lenis ? lenis.scrollTo(t, { offset: -78 }) : t.scrollIntoView({ behavior: 'smooth' }); } } });
+    });
+
+    /* ---- split hero headline into words for a dramatic entrance ---- */
+    const h1 = document.querySelector('.hero h1');
+    if (h1 && !h1.dataset.split) {
+      h1.dataset.split = '1';
+      const parts = h1.textContent.split(/(\s+)/);
+      h1.textContent = '';
+      parts.forEach(w => {
+        if (/^\s+$/.test(w)) h1.appendChild(document.createTextNode(w));
+        else if (w) { const o = document.createElement('span'); o.className = 'word'; const inner = document.createElement('span'); inner.className = 'ws'; inner.textContent = w; o.appendChild(inner); h1.appendChild(o); }
+      });
+    }
+    gsap.set('.hero h1', { opacity: 1 });
+
+    /* ---- hero entrance ---- */
+    const tl = gsap.timeline({ defaults: { ease: 'power3.out' } });
+    tl.fromTo('.hero .badge', { y: 24, opacity: 0 }, { y: 0, opacity: 1, duration: 0.7 })
+      .fromTo('.hero h1 .ws', { yPercent: 120, opacity: 0, rotateX: -55, transformPerspective: 600 }, { yPercent: 0, opacity: 1, rotateX: 0, duration: 0.9, stagger: 0.045, transformOrigin: '50% 100%' }, '-=0.35')
+      .fromTo('.hero .hero-sub', { y: 24, opacity: 0 }, { y: 0, opacity: 1, duration: 0.8 }, '-=0.35')
+      .fromTo('.hero .hero-cta', { y: 20, opacity: 0 }, { y: 0, opacity: 1, duration: 0.8 }, '-=0.55')
+      .fromTo('.hero .hero-ideal', { y: 18, opacity: 0 }, { y: 0, opacity: 1, duration: 0.8 }, '-=0.6')
+      .fromTo('.board-wrap', { y: 60, opacity: 0, rotateX: 16, transformPerspective: 1300 }, { y: 0, opacity: 1, rotateX: 0, duration: 1.1 }, '-=0.9');
+
+    /* ---- left section navigator ---- */
+    (function buildSnav() {
+      const secs = [...document.querySelectorAll('main [data-screen-label]')];
+      if (!secs.length) return;
+      const nameMap = { 'Hero': 'Start', 'Pricing': 'Pakete', 'Case': 'Case', 'About': 'Über uns', 'Final CTA': 'Kontakt', 'Ideal für': 'Ideal' };
+      const data = secs.map(s => { const lbl = s.dataset.screenLabel; const m = lbl.match(/^(\S+)\s+(.*)$/); const num = m ? m[1] : ''; let name = m ? m[2] : lbl; name = nameMap[name] || name; return { el: s, num, name }; });
+      const aside = document.createElement('aside'); aside.className = 'snav'; aside.setAttribute('aria-hidden', 'true');
+      const rail = document.createElement('div'); rail.className = 'snav-rail';
+      const fill = document.createElement('div'); fill.className = 'snav-fill'; rail.appendChild(fill);
+      data.forEach((d) => { const dot = document.createElement('button'); dot.className = 'snav-dot'; dot.setAttribute('data-name', d.num + ' · ' + d.name); dot.addEventListener('click', () => { lenis ? lenis.scrollTo(d.el, { offset: -60 }) : d.el.scrollIntoView({ behavior: 'smooth' }); }); rail.appendChild(dot); d.dot = dot; });
+      const meta = document.createElement('div'); meta.className = 'snav-meta';
+      const idx = document.createElement('div'); idx.className = 'snav-index'; idx.innerHTML = '<span class="roll">' + data[0].num + '</span>';
+      const nm = document.createElement('div'); nm.className = 'snav-name'; nm.innerHTML = '<span>' + data[0].name + '</span>';
+      meta.appendChild(idx); meta.appendChild(nm);
+      aside.appendChild(rail); aside.appendChild(meta); document.body.appendChild(aside);
+      let current = -1;
+      function setActive(i) {
+        if (i === current || i < 0 || i >= data.length) return; current = i;
+        data.forEach((d, j) => d.dot.classList.toggle('active', j === i));
+        const dotEl = data[i].dot; fill.style.height = (dotEl.offsetTop + dotEl.offsetHeight / 2) + 'px';
+        const roll = idx.querySelector('.roll'); roll.textContent = data[i].num; gsap.fromTo(roll, { yPercent: -110, opacity: 0 }, { yPercent: 0, opacity: 1, duration: 0.45, ease: 'power3.out' });
+        const ns = nm.querySelector('span'); ns.textContent = data[i].name; gsap.fromTo(ns, { yPercent: 110, opacity: 0 }, { yPercent: 0, opacity: 1, duration: 0.45, ease: 'power3.out' });
+      }
+      data.forEach((d, i) => { ScrollTrigger.create({ trigger: d.el, start: 'top 45%', end: 'bottom 45%', onToggle: self => { if (self.isActive) setActive(i); } }); });
+      setActive(0);
+    })();
+
+    /* ---- board 3D scrub + float depth parallax ---- */
+    const board = document.querySelector('.board');
+    if (board) {
+      gsap.to(board, { rotateX: -24, rotateZ: 1.5, y: -70, scale: 0.9, transformPerspective: 1400, ease: 'none', scrollTrigger: { trigger: '.hero', start: 'top top', end: 'bottom top', scrub: 0.6 } });
+      document.querySelectorAll('.float-tag').forEach((f, i) => { gsap.to(f, { y: i ? -100 : 76, ease: 'none', scrollTrigger: { trigger: '.hero', start: 'top top', end: 'bottom top', scrub: 0.8 } }); });
+    }
+
+    /* ---- aurora parallax ---- */
+    gsap.utils.toArray('.aurora i').forEach((b, i) => { gsap.to(b, { yPercent: i % 2 ? -20 : 24, ease: 'none', scrollTrigger: { start: 0, end: 'max', scrub: 1 } }); });
+
+    /* ---- section heads ---- */
+    gsap.utils.toArray('.section-head').forEach(el => { gsap.fromTo(el, { y: 54, opacity: 0, clipPath: 'inset(0 0 100% 0)' }, { y: 0, opacity: 1, clipPath: 'inset(0 0 0% 0)', duration: 1.0, ease: 'power3.out', scrollTrigger: { trigger: el, start: 'top 86%' } }); });
+
+    /* ---- grids: 3D staggered card reveals ---- */
+    [['.prob-grid', '.prob-card, .prob-feature'], ['.bene-grid', '.bene'], ['.proc-grid', '.proc'], ['.asset-grid', '.asset'], ['.price-grid', '.price'], ['.ideal-list', '.ideal-item'], ['.case-rows', '.case-row']].forEach(([gr, ch]) => {
+      document.querySelectorAll(gr).forEach(grid => {
+        const kids = grid.querySelectorAll(ch);
+        gsap.fromTo(kids, { y: 72, opacity: 0, rotateX: 20, filter: 'blur(12px)', transformPerspective: 900, transformOrigin: '50% 100%' }, { y: 0, opacity: 1, rotateX: 0, filter: 'blur(0px)', duration: 0.9, ease: 'power3.out', stagger: 0.1, scrollTrigger: { trigger: grid, start: 'top 85%' } });
+      });
+    });
+
+    /* ---- singles ---- */
+    gsap.utils.toArray('.about-card, .leist-note, .price-cta, .ideal-note, .about-points, .final').forEach(el => { gsap.fromTo(el, { y: 52, opacity: 0 }, { y: 0, opacity: 1, duration: 0.85, ease: 'power3.out', scrollTrigger: { trigger: el, start: 'top 88%' } }); });
+    gsap.utils.toArray('.faq-item').forEach(el => { gsap.fromTo(el, { x: 42, opacity: 0 }, { x: 0, opacity: 1, duration: 0.7, ease: 'power3.out', scrollTrigger: { trigger: el, start: 'top 90%' } }); });
+
+    /* ---- overlap depth: dim + shrink outgoing section as next slides over ---- */
+    const secs = [...document.querySelectorAll('main > .section')];
+    secs.forEach((sec, i) => { if (i < secs.length - 1) { gsap.to(sec, { scale: 0.97, opacity: 0.62, ease: 'none', transformOrigin: '50% 35%', scrollTrigger: { trigger: secs[i + 1], start: 'top 95%', end: 'top 55%', scrub: true } }); } });
+
+    /* ---- progress bars ---- */
+    document.querySelectorAll('.b-bar').forEach(b => ScrollTrigger.create({ trigger: b, start: 'top 92%', once: true, onEnter: () => setTimeout(() => b.classList.add('run'), 150) }));
+
+    /* ---- counters ---- */
+    document.querySelectorAll('[data-count]').forEach(c => ScrollTrigger.create({ trigger: c, start: 'top 90%', once: true, onEnter: () => animateCount(c) }));
+
+    /* ---- ticker: scales from big down to fit as it scrolls into view ---- */
+    const tscale = document.querySelector('.ticker-scale');
+    if (tscale) gsap.fromTo(tscale, { scale: 1.45, opacity: 0.5 }, { scale: 1, opacity: 1, ease: 'power2.out', scrollTrigger: { trigger: '.ticker', start: 'top bottom', end: 'top 52%', scrub: 0.5 } });
+
+    ScrollTrigger.refresh();
+  })();
+  </script>
+  <script src="dd-graphics.js"></script>
+</body>
+</html>

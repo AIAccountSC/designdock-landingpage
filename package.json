@@ -1,0 +1,18 @@
+{
+  "name": "designdock-landingpage",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Marketing landing page for DesignDock — a German design subscription agency.",
+  "license": "UNLICENSED",
+  "scripts": {
+    "start": "npx --yes serve .",
+    "dev": "npx --yes serve ."
+  },
+  "keywords": [
+    "landing-page",
+    "designdock",
+    "gsap",
+    "three.js",
+    "lenis"
+  ]
+}

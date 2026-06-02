@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>404 — DesignDock</title>
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600;700&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html, body {
+      height: 100%;
+    }
+
+    body {
+      background-color: #0b0e0c;
+      color: #eef1ea;
+      font-family: "Space Grotesk", system-ui, sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      text-align: center;
+      padding: 2rem;
+    }
+
+    .error-code {
+      font-size: clamp(6rem, 20vw, 12rem);
+      font-weight: 700;
+      line-height: 1;
+      color: #c6f24e;
+      letter-spacing: -0.04em;
+    }
+
+    .error-message {
+      margin-top: 1rem;
+      font-size: clamp(1rem, 3vw, 1.25rem);
+      font-weight: 400;
+      color: #eef1ea;
+      opacity: 0.75;
+    }
+
+    .home-btn {
+      display: inline-block;
+      margin-top: 2.5rem;
+      padding: 0.75rem 2rem;
+      background-color: #c6f24e;
+      color: #0b0e0c;
+      font-family: inherit;
+      font-size: 1rem;
+      font-weight: 600;
+      text-decoration: none;
+      border-radius: 9999px;
+      transition: opacity 0.2s ease;
+    }
+
+    .home-btn:hover,
+    .home-btn:focus-visible {
+      opacity: 0.85;
+      outline: 2px solid #c6f24e;
+      outline-offset: 3px;
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .home-btn {
+        transition: none;
+      }
+    }
+  </style>
+</head>
+<body>
+  <p class="error-code">404</p>
+  <p class="error-message">Diese Seite gibt es nicht.</p>
+  <a class="home-btn" href="/">Zur Startseite</a>
+</body>
+</html>
