@@ -511,10 +511,6 @@
     /* progress bars animate from 0 */
     .b-bar i { width: 0 !important; transition: width 1.1s cubic-bezier(.22,1,.36,1); }
     .b-bar.run i { width: var(--w) !important; }
-    /* ===== IO REVEAL (portfolio / testi / team cards) ===== */
-    .portfolio-card, .dd-testi-card, .team-card { opacity:0; transform:translateY(36px); transition:opacity .55s ease var(--io-delay,0ms), transform .55s cubic-bezier(.22,1,.36,1) var(--io-delay,0ms); }
-    .portfolio-card.io-in, .dd-testi-card.io-in, .team-card.io-in { opacity:1; transform:none; }
-    html.fallback-show .portfolio-card, html.fallback-show .dd-testi-card, html.fallback-show .team-card { opacity:1; transform:none; }
     /* ===== TRUSTED BY ===== */
     .trusted-section{padding:32px 0 44px;border-bottom:1px solid var(--line);}
     .trusted-label{font-size:11.5px;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);text-align:center;margin-bottom:26px;}
@@ -1352,15 +1348,6 @@
     /* ---- ticker: scales from big down to fit as it scrolls into view ---- */
     const tscale = document.querySelector('.ticker-scale');
     if (tscale) gsap.fromTo(tscale, { scale: 1.45, opacity: 0.5 }, { scale: 1, opacity: 1, ease: 'power2.out', scrollTrigger: { trigger: '.ticker', start: 'top bottom', end: 'top 52%', scrub: 0.5 } });
-
-    /* ---- new sections: lightweight IO reveal (portfolio / testimonials / team) ---- */
-    const ioCards = new IntersectionObserver(entries => {
-      entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('io-in'); ioCards.unobserve(e.target); } });
-    }, { threshold: 0.12 });
-    document.querySelectorAll('.portfolio-card, .dd-testi-card, .team-card').forEach((el, i) => {
-      el.style.setProperty('--io-delay', (i % 3) * 80 + 'ms');
-      ioCards.observe(el);
-    });
 
     ScrollTrigger.refresh();
   })();
