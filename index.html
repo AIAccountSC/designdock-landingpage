@@ -546,6 +546,7 @@
     @media(min-width:480px) and (max-width:760px){.team-grid{grid-template-columns:repeat(2,1fr);}}
     .team-card{background:var(--panel);border:1px solid var(--line);border-radius:20px;padding:28px 24px;text-align:center;display:flex;flex-direction:column;align-items:center;gap:12px;}
     .team-photo{width:88px;height:88px;border-radius:50%;object-fit:cover;border:2px solid var(--line);}
+    .team-placeholder{background:var(--panel);border:2px solid var(--line);display:block;}
     .team-card h3{font-size:16px;font-weight:700;color:var(--text);margin:0;}
     .team-card .team-role{font-size:13px;color:var(--lime);font-weight:600;letter-spacing:.02em;margin:0;}
     .team-card p{font-size:13.5px;color:var(--muted);line-height:1.55;margin:0;}
@@ -971,12 +972,39 @@
             <div class="case-row result"><div class="k">Ergebnis</div><p>Kürzere Time-to-Market für Kampagnen, weniger Abstimmungsaufwand und ein konsistenter Markenauftritt.</p></div>
           </div>
         </div>
-        <div class="team-grid" style="margin-top:56px;grid-template-columns:1fr;">
-          <article class="team-card" style="max-width:340px;">
-            <img class="team-photo" src="assets/founder.png" alt="Thomas St&#252;binger, Founder DesignDock" width="88" height="88" loading="lazy" decoding="async">
+        <div class="section-head" style="margin-top:56px;margin-bottom:28px;">
+          <h2 class="h-sec">Unser Team</h2>
+        </div>
+        <div class="team-grid" style="margin-top:0;">
+          <article class="team-card">
+            <img class="team-photo" src="assets/founder.png" alt="Thomas St&#252;binger" width="88" height="88" loading="lazy" decoding="async">
             <h3>Thomas St&#252;binger</h3>
-            <p class="team-role">Founder &amp; Conversion Strategist</p>
-            <p>Thomas hilft wachstumsorientierten Unternehmen dabei, ihren Online-Auftritt in ein klares, vertrauenswürdiges und verkaufsstarkes System zu verwandeln – von der Positionierung über die Website-Struktur bis hin zu überzeugenden visuellen Assets.</p>
+            <p class="team-role">CEO &amp; Gr&#252;nder</p>
+          </article>
+          <article class="team-card">
+            <img class="team-photo" src="https://cdn.prod.website-files.com/649413ec23c5269e2fb03294/658183b74d341b8e9974a1a5_Marco%20Niedermeier.png" alt="Marco Niedermeier" width="88" height="88" loading="lazy" decoding="async">
+            <h3>Marco Niedermeier</h3>
+            <p class="team-role">Consultant</p>
+          </article>
+          <article class="team-card">
+            <div class="team-photo team-placeholder"></div>
+            <h3>Hoa</h3>
+            <p class="team-role">Consultant</p>
+          </article>
+          <article class="team-card">
+            <div class="team-photo team-placeholder"></div>
+            <h3>John</h3>
+            <p class="team-role">Developer</p>
+          </article>
+          <article class="team-card">
+            <div class="team-photo team-placeholder"></div>
+            <h3>Manuel</h3>
+            <p class="team-role">Developer</p>
+          </article>
+          <article class="team-card">
+            <div class="team-photo team-placeholder"></div>
+            <h3>Anna</h3>
+            <p class="team-role">Designer</p>
           </article>
         </div>
       </div>
