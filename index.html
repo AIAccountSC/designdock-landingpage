@@ -517,6 +517,9 @@
     .logos-row{display:flex;flex-wrap:wrap;gap:14px 32px;align-items:center;justify-content:center;}
     .logo-chip{font-family:"Space Grotesk",sans-serif;font-size:18px;font-weight:700;letter-spacing:-.01em;color:rgba(255,255,255,.62);filter:grayscale(1);transition:color .2s ease;cursor:default;}
     .logo-chip:hover{color:rgba(255,255,255,.95);}
+    .logo-img{height:30px;width:auto;object-fit:contain;opacity:.58;transition:opacity .2s ease;}
+    .logo-img:hover{opacity:.95;}
+    @media(max-width:600px){.logo-img{height:22px;}}
     @media(max-width:600px){.logo-chip{font-size:14px;}}
     /* ===== PORTFOLIO ===== */
     .portfolio-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin-top:48px;}
@@ -784,13 +787,12 @@
       <div class="container">
         <p class="trusted-label">Vertraut von f&#252;hrenden Marken</p>
         <div class="logos-row">
-          <span class="logo-chip">Einhell</span>
-          <span class="logo-chip">Miweba</span>
-          <span class="logo-chip">narovital</span>
-          <span class="logo-chip">Alclear</span>
-          <span class="logo-chip">Licargo</span>
-          <span class="logo-chip">InnoNature</span>
-          <span class="logo-chip">Surig</span>
+          <img class="logo-img" src="assets/logo-einhell.png" alt="Einhell" loading="lazy" decoding="async">
+          <img class="logo-img" src="assets/logo-miweba.png" alt="Miweba" loading="lazy" decoding="async">
+          <img class="logo-img" src="assets/logo-narovital.png" alt="NaroVital" loading="lazy" decoding="async">
+          <img class="logo-img" src="assets/logo-alclear.png" alt="Alclear" loading="lazy" decoding="async">
+          <img class="logo-img" src="assets/logo-licargo.png" alt="Licargo" loading="lazy" decoding="async">
+          <img class="logo-img" src="assets/logo-innonature.png" alt="InnoNature" loading="lazy" decoding="async">
         </div>
       </div>
     </section>
@@ -1116,57 +1118,51 @@
         </div>
         <div class="dd-testi-grid">
           <article class="dd-testi-card">
-            <div class="dd-testi-co">Einhell</div>
             <div class="dd-testi-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
             <blockquote class="dd-testi-quote">&#8222;St&#228;ndig wechselnde Freelancer, null Konsistenz in unseren Kampagnen-Creatives &#8212; das war Alltag. Mit dem festen Team liefern wir Ad-Creatives jetzt zuverl&#228;ssig innerhalb von 48&#8201;h. Die Time-to-Market hat sich halbiert.&#8220;</blockquote>
             <div class="dd-testi-person">
               <div class="dd-avatar">S</div>
-              <div><strong>Sandra V.</strong><span>Marketing-Lead &#183; Einhell</span></div>
+              <div><strong>Sandra V.</strong><span>Marketing-Lead</span></div>
             </div>
           </article>
           <article class="dd-testi-card">
-            <div class="dd-testi-co">Miweba</div>
             <div class="dd-testi-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
             <blockquote class="dd-testi-quote">&#8222;Wir fahren laufend Kampagnen, Launches und Aktionen. Endlich ein Partner, der unsere Marke kennt und Creatives &#252;ber alle Kan&#228;le hinweg konsistent h&#228;lt &#8212; ohne dass wir jedes Mal neu briefen m&#252;ssen.&#8220;</blockquote>
             <div class="dd-testi-person">
               <div class="dd-avatar">T</div>
-              <div><strong>Tobias R.</strong><span>E-Commerce-Lead &#183; Miweba</span></div>
+              <div><strong>Tobias R.</strong><span>E-Commerce-Lead</span></div>
             </div>
           </article>
           <article class="dd-testi-card">
-            <div class="dd-testi-co">narovital</div>
             <div class="dd-testi-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
             <blockquote class="dd-testi-quote">&#8222;Von Landingpage-Visuals bis Produkt-Launch-Assets &#8212; alles aus einer Hand und in einem Look. Die strukturierten Feedback-Runden sparen uns enorm viel Abstimmungszeit.&#8220;</blockquote>
             <div class="dd-testi-person">
               <div class="dd-avatar">L</div>
-              <div><strong>Lena H.</strong><span>Brand Managerin &#183; narovital</span></div>
+              <div><strong>Lena H.</strong><span>Brand Managerin</span></div>
             </div>
           </article>
           <article class="dd-testi-card">
-            <div class="dd-testi-co">Licargo</div>
             <div class="dd-testi-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
             <blockquote class="dd-testi-quote">&#8222;F&#252;hlt sich an wie ein eigenes Inhouse-Team &#8212; nur ohne Recruiting, Fixkosten und Freelancer-Chaos. Planbare Kosten, planbarer Output. Genau das, was uns gefehlt hat.&#8220;</blockquote>
             <div class="dd-testi-person">
               <div class="dd-avatar">D</div>
-              <div><strong>Daniel K.</strong><span>Gesch&#228;ftsf&#252;hrer &#183; Licargo</span></div>
+              <div><strong>Daniel K.</strong><span>Gesch&#228;ftsf&#252;hrer</span></div>
             </div>
           </article>
           <article class="dd-testi-card">
-            <div class="dd-testi-co">InnoNature</div>
             <div class="dd-testi-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
             <blockquote class="dd-testi-quote">&#8222;Die Geschwindigkeit ist der Gamechanger. Erste Entw&#252;rfe in zwei bis drei Tagen, saubere Umsetzung, kein Briefing geht verloren. Unser Content-Output ist sp&#252;rbar gestiegen.&#8220;</blockquote>
             <div class="dd-testi-person">
               <div class="dd-avatar">J</div>
-              <div><strong>Julia P.</strong><span>Content-Lead &#183; InnoNature</span></div>
+              <div><strong>Julia P.</strong><span>Content-Lead</span></div>
             </div>
           </article>
           <article class="dd-testi-card">
-            <div class="dd-testi-co">Alclear</div>
             <div class="dd-testi-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
             <blockquote class="dd-testi-quote">&#8222;Pitch-Decks, Social Assets, Format-Adaptionen &#8212; was fr&#252;her Wochen gedauert hat, l&#228;uft jetzt nebenbei. Ein zentraler Kanal, ein Team, das mitdenkt. Klare Empfehlung.&#8220;</blockquote>
             <div class="dd-testi-person">
               <div class="dd-avatar">M</div>
-              <div><strong>Marc B.</strong><span>Head of Growth &#183; Alclear</span></div>
+              <div><strong>Marc B.</strong><span>Head of Growth</span></div>
             </div>
           </article>
         </div>
