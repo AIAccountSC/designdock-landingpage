@@ -1,4 +1,4 @@
-/* DesignDock — creative graphics layer (three.js hero object + reactive dot-grid) */
+/* DesignLock — creative graphics layer (three.js hero object + reactive dot-grid) */
 (function () {
   'use strict';
   const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
